@@ -58,17 +58,24 @@ Example Python usage:
 ```python
 from loaders.registry import DatasetRegistry
 
+# Initialize the registry
 reg = DatasetRegistry("datasets.csv")
 
-meta = reg.get(1)
-print(meta["NAME"])
-print(meta["CATEGORY"])
-print(meta["SIZE"])
-print(reg.link(1))
+# 1. Search for datasets by keyword (e.g., "underwater", "2025", "low light")
+results = reg.search("underwater")
+print(f"Found {len(results)} datasets matching your query.")
 
+# 2. Retrieve metadata by Index
+meta = reg.get(46)
+print(f"Name: {meta['NAME']}")
+print(f"Category: {meta['CATEGORY']}")
+print(f"Direct Link: {reg.link(46)}")
+
+# 3. Retrieve metadata by Name (Case-insensitive)
 snow = reg.get_by_name("Snow100K")
-print(snow["INDEX"], snow["MAIN_LINK"])
+print(f"Index: {snow['INDEX']} | URL: {snow['MAIN_LINK']}")
 
+# 4. Print all datasets in a clean, human-readable format
 for row in reg.list_all():
     print(reg.pretty(row["INDEX"]))
 
