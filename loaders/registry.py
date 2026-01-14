@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, Any, List, Union, Optional
 
 class DatasetRegistry:
-    def __init__(self, csv_path: str = r"F:\ML\Adverse-Weather-and-Low-Light-Vision-Datasets\datasets\datasets.csv"):
+    def __init__(self, csv_path: str = "datasets.csv"):
         self.csv_path = Path(csv_path)
         self._rows: List[Dict[str, Any]] = []
         self._by_index: Dict[str, Dict[str, Any]] = {}
