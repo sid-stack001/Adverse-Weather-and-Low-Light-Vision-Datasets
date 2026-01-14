@@ -44,3 +44,13 @@ INDEX,NAME,CATEGORY,SIZE,DESCRIPTION,MAIN_LINK
 43,LoL-SRW (Low-light SR/Weather),Low light,50 pairs,"LSRW dataset with 50 paired images (Huawei + Nikon) for low-light super-resolution and restoration.",https://github.com/LoL-SRW/LSRW-dataset
 44,NTIRE Desnowing Challenge Dataset,Snow,10000 images,"NTIRE desnowing challenge dataset built from Snow100K and related snow data for benchmarking desnowing models.",https://data.vision.ee.ethz.ch/cvl/ntire21/desnowing/
 45,NTIRE Nighttime Dehazing Dataset,Haze+low light,2000 images,"NTIRE nighttime dehazing dataset with real nighttime hazy images and corresponding references for joint low-light and haze removal.",https://data.vision.ee.ethz.ch/cvl/ntire20/NTIRE2020-night-dehazing/
+46,UIEB,Underwater,950 pairs,"Underwater Image Enhancement Benchmark (UIEB) with 890 real paired images and 60 challenging samples.",https://www.kaggle.com/datasets/larjeck/uieb-dataset-raw
+47,EUVP,Underwater,12000 images,"Large-scale dataset for enhancing underwater visual perception with paired and unpaired sets.",https://www.kaggle.com/datasets/pamuduranasinghe/euvp-dataset
+48,MOUD,Underwater,18000 images,"Multimodal Optical Underwater Dataset (2025) for enhancement, detection, and 3D reconstruction.",https://springernature.figshare.com/scientificdata
+49,Sand11K,Dust/Sand,11985 images,"Single image sand-dust removal dataset with varying levels of degradation (2025 release).",https://github.com/CV-Zhang/Sand11K
+50,SIRB,Dust/Sand,16230 images,"Sand-dust Image Reconstruction Benchmark (SIRB) with synthetic and real-world images.",https://github.com/Sand-Dust-Image-Restoration/SIRB
+51,Raindrop Clarity,Rain/Night,14139 images,"NTIRE 2025 challenge dataset for day/night raindrop removal on camera lenses.",https://lixinustc.github.io/CVPR-NTIRE2025-RainDrop-Competition.github.io/
+52,URIR-8K,Rain,8000 images,"Universal Rainy Image Restoration (URIR) benchmark covering streaks, drops, and night rain.",https://ojs.aaai.org/index.php/AAAI/article/view/32985
+53,HDRT,Thermal/IR,50000 images,"Large-scale dataset for Infrared-Guided HDR Imaging with aligned IR and RGB frames.",https://huggingface.co/datasets/jingchao-peng/HDRTDataset
+54,FLIR ADAS v2,Thermal/IR,26442 frames,"Annotated Thermal and Visible spectrum frames for object detection in adverse weather.",https://www.flir.com/oem/adas/adas-dataset-form/
+55,LSUI,Underwater,5000 pairs,"Large-Scale Underwater Image (LSUI) dataset covering diverse water types and lighting.",https://www.kaggle.com/datasets/noureldin199/lsui-large-scale-underwater-image-dataset
